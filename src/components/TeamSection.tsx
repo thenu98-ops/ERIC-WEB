@@ -62,6 +62,18 @@ const TeamSection = () => {
     name: 'Imal Perera',
     position: 'Finance Director',
     image: 'group/imal.webp'
+  },{
+    name: 'Janitha Rajapaksha',
+    position: 'Editor',
+    image: 'group/janitha.webp'
+  },{
+    name: 'Sarah Widanagamage',
+    position: 'Co- Editor',
+    image: 'group/sarah.webp'
+  },{
+    name: 'Dumini Hirunika',
+    position: 'Project Coordinator',
+    image: 'group/dumini.webp'
   }];
   const advisors = [{
     name: 'Eng. Udaya Dampage',
