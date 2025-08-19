@@ -66,15 +66,15 @@ const TeamSection = () => {
   const advisors = [{
     name: 'Eng. Udaya Dampage',
     position: 'Advisor, Electronic, Robotics and Innovation Club',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+    image: 'dampa.jpg'
   }, {
     name: 'Eng. Geeth Karunarathne',
     position: 'Lecture In-Charge, Electronic, Robotics and Innovation Club',
-    image: 'https://images.unsplash.com/photo-1563237023-b1e970526dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80'
+    image: 'geeth.jpg'
   }, {
     name: 'Capt RT Hettiarachchi USP',
     position: 'Head of Department of Electrical Electronic Telecommunication and Biomedical Engineering',
-    image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80'
+    image: 'group/lalitha.webp'
   }];
   const renderTeamMembers = members => <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {members.map((member, index) => <div key={index} className="backdrop-blur-md bg-white/5 rounded-2xl border border-white/10 overflow-hidden shadow-lg transform transition-all duration-300 hover:translate-y-[-5px]">
