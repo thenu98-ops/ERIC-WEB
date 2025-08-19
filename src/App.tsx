@@ -118,7 +118,7 @@ export function App() {
     window.addEventListener("load", handleLoad);
 
     // ✅ Fallback timer (3 seconds) so loader doesn't get stuck on mobile
-    const timer = setTimeout(() => setLoading(false), 3000);
+    const timer = setTimeout(() => setLoading(false), 4000);
 
     return () => {
       window.removeEventListener("load", handleLoad);
