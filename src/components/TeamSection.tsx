@@ -279,6 +279,8 @@ const TeamSection = () => {
             <img
               src={member.image}
               alt={member.name}
+                loading="lazy"
+  onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")}
               className="w-full h-full object-cover object-top transform transition-transform duration-500 hover:scale-110"
             />
           </div>
