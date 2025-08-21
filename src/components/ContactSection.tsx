@@ -36,16 +36,16 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold mb-3">Follow Us</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="text-white/80 hover:text-blue-400 transition-colors">
+                    <a href="https://www.instagram.com/eric__kdu/" className="text-white/80 hover:text-blue-400 transition-colors">
                       <InstagramIcon className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-white/80 hover:text-blue-400 transition-colors">
+                    <a href="https://www.facebook.com/KDUERIC/" className="text-white/80 hover:text-blue-400 transition-colors">
                       <FacebookIcon className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-white/80 hover:text-blue-400 transition-colors">
+                    <a href="https://www.linkedin.com/company/eric-kdu/" className="text-white/80 hover:text-blue-400 transition-colors">
                       <LinkedinIcon className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-white/80 hover:text-blue-400 transition-colors">
+                    <a href="https://www.youtube.com/@eric-kdu5921" className="text-white/80 hover:text-blue-400 transition-colors">
                       <YoutubeIcon className="w-6 h-6" />
                     </a>
                   </div>

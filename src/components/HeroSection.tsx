@@ -22,7 +22,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="#join" 
+              href="https://forms.gle/7WViUTKmxn69TW9p8" 
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md text-lg font-medium transition-all duration-300 transform hover:scale-105"
             >
               Join ERIC
