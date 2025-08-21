@@ -243,6 +243,7 @@
 
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import BlurImage from './BlurImage';
 
 const EventsSection = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -405,9 +406,15 @@ const EventsSection = () => {
                         : 'border-white/20 hover:border-white/40'
                     }`}
                   >
-                    <img src={photo} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover"
+                    {/* <img src={photo} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover"
                                     loading="lazy"
-  onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")} />
+  onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")} /> */}
+
+                    <BlurImage
+                      src={photo}
+                      alt={`Thumbnail ${idx + 1}`}
+                      className="w-full h-full object-cover"
+                    />
                   </button>
                 ))}
               </div>

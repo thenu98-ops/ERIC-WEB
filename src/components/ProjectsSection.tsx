@@ -44,6 +44,7 @@
 
 
 import React, { useState } from 'react';
+import BlurImage from './BlurImage';
 
 const ProjectsSection = () => {
   const projects = [
@@ -108,13 +109,19 @@ const ProjectsSection = () => {
             >
               {/* Main Image */}
               <div className="h-64 overflow-hidden relative">
-                <img 
+                {/* <img 
                   src={project.images[activeImageIndex]} 
                   alt={project.title} 
                                   loading="lazy"
   onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")}
                   className="w-full h-full object-cover"
-                />
+                /> */}
+
+                            <BlurImage
+  src={project.images[activeImageIndex]}
+  alt={project.title}
+  className="hover:scale-110"
+/>
                 
                 {/* Thumbnail Gallery */}
                 <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-2 flex justify-center space-x-2">

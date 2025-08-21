@@ -132,6 +132,7 @@
 
 import React, { useState } from 'react';
 import { Linkedin } from 'lucide-react'; // LinkedIn icon
+import BlurImage from './BlurImage'; // Assuming BlurImage is in the same directory
 
 const TeamSection = () => {
   const [activeTab, setActiveTab] = useState('exco');
@@ -276,13 +277,18 @@ const TeamSection = () => {
           className="backdrop-blur-md bg-white/5 rounded-2xl border border-white/10 overflow-hidden shadow-lg transform transition-all duration-300 hover:translate-y-[-5px]"
         >
           <div className="h-60 overflow-hidden">
-            <img
+            <BlurImage
+  src={member.image}
+  alt={member.name}
+  className="hover:scale-110"
+/>
+            {/* <img
               src={member.image}
               alt={member.name}
                 loading="lazy"
   onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")}
               className="w-full h-full object-cover object-top transform transition-transform duration-500 hover:scale-110"
-            />
+            /> */}
           </div>
           <div className="p-4 text-center">
             <h3 className="text-lg font-bold text-blue-400">{member.name}</h3>
