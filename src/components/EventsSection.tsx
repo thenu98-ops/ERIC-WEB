@@ -405,7 +405,9 @@ const EventsSection = () => {
                         : 'border-white/20 hover:border-white/40'
                     }`}
                   >
-                    <img src={photo} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover" />
+                    <img src={photo} alt={`Thumbnail ${idx + 1}`} className="w-full h-full object-cover"
+                                    loading="lazy"
+  onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")} />
                   </button>
                 ))}
               </div>

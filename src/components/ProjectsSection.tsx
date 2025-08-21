@@ -111,6 +111,8 @@ const ProjectsSection = () => {
                 <img 
                   src={project.images[activeImageIndex]} 
                   alt={project.title} 
+                                  loading="lazy"
+  onLoad={(e) => e.currentTarget.classList.remove("blur-lg", "scale-105")}
                   className="w-full h-full object-cover"
                 />
                 
