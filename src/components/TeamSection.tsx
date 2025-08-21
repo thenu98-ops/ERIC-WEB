@@ -116,7 +116,7 @@
 //               Board of Directors
 //             </button>
 //             <button onClick={() => setActiveTab('advisors')} className={`px-4 py-2 rounded-md transition-all ${activeTab === 'advisors' ? 'bg-blue-600 text-white' : 'text-white/70 hover:text-white'}`}>
-//               Advisors
+//               Advisors/
 //             </button>
 //           </div>
 //         </div>
@@ -228,7 +228,7 @@ const TeamSection = () => {
       name: 'Imal Perera',
       position: 'Finance Director',
       image: 'group/imal.webp',
-      linkedin: 'https://www.linkedin.com/in/imal-perera'
+      linkedin: 'https://www.linkedin.com/in/imal-perera-51985228b/'
     },
     {
       name: 'Janitha Rajapaksha',
